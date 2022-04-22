@@ -30,28 +30,28 @@ else
 // на входе - координаты 2х точек
 // на выходе  -  находит расстояние между ними
 // ! в 3D пространстве
-// A(3,6,8); B(2,1,-7) -> 15.84
-// A(7,-5,0); B(1,-1,9) -> 11.53
-//  int x1 = 7, y1 = -5, z1 = 0, x2 = 1, y2 = -1, z2 = 9;
+A(3,6,8); B(2,1,-7) -> 15.84
+A(7,-5,0); B(1,-1,9) -> 11.53
+ int x1 = 7, y1 = -5, z1 = 0, x2 = 1, y2 = -1, z2 = 9;
 
-// double lenght = Math.Sqrt(Math.Pow(x1-x2,2) + Math.Pow(y1-y2,2) + Math.Pow(z1-z2,2));
-// Console.WriteLine(lenght);
+double lenght = Math.Sqrt(Math.Pow(x1-x2,2) + Math.Pow(y1-y2,2) + Math.Pow(z1-z2,2));
+Console.WriteLine(lenght);
 
 
 // Задача 23
 // на входе - число N
 // на выходе  - таблица кубов от 1 до N
 
-// Console.Clear();
+Console.Clear();
 
-// Console.WriteLine("Введите число: ");
-// int N =  Convert.ToInt32(Console.ReadLine());
-// Console.WriteLine($"кубы от 1 до {N}");
-// Console.WriteLine();
+Console.WriteLine("Введите число: ");
+int N =  Convert.ToInt32(Console.ReadLine());
+Console.WriteLine($"кубы от 1 до {N}");
+Console.WriteLine();
 
-//     for(int j = 1; j <= N; j++)
-//     {
-//         Console.WriteLine($"{j} в кубе: {j*j*j} ");
-//     }
-//         Console.WriteLine();
+    for(int j = 1; j <= N; j++)
+    {
+        Console.WriteLine($"{j} в кубе: {j*j*j} ");
+    }
+        Console.WriteLine();
 
